@@ -20,7 +20,6 @@
  it will return a pointer to the start of the chunk of memory. This pointer may be
  different to the pointer returned by malloc if the memory had to be moved else where.
  
- 
  */
 int main(void) {
   // ----------------------- malloc with basics
@@ -81,6 +80,6 @@ int main(void) {
   }
 
   free(fl);
-  
+
   return 0;
 }
